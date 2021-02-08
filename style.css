@@ -1,0 +1,31 @@
+body {
+background-color: burlywood;
+margin: 0;
+padding-top: 800px;
+}
+.profile {
+width:200px;
+margin-bottom:50px;
+border-radius:50%;
+}
+#img1 {
+border-radius: 50%;
+margin-bottom: 50px;
+width:175px;
+}
+#welcome {
+position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#7fffd4 0%,#deb887 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
